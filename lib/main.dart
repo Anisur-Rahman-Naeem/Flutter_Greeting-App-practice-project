@@ -51,6 +51,7 @@ class HomeActivity extends StatelessWidget {
                 return GestureDetector(
                   onDoubleTap: (){
                     mySnackBar(context, MyItems[index]['title']);
+                    print("josdgnds");
                   },
                   child: Container(
                     margin: EdgeInsets.all(10),
